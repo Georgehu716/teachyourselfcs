@@ -1,4 +1,1 @@
-# Algorithms and data structures
-
-- https://www3.cs.stonybrook.edu/~skiena/373/videos/
-
+- CSE 373 - Analysis of Algorithms: https://www3.cs.stonybrook.edu/~skiena/373/
