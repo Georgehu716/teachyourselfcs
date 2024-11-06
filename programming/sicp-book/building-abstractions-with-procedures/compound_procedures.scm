@@ -6,13 +6,13 @@
 (square (square 3))
 
 
-(define (sum-of-square x y)
+(define (sum-of-squares x y)
 	(+ (square x) (square y)))
 
-(sum-of-square 3 4)
+(sum-of-squares 3 4)
 
 
 (define (f a)
-	(sum-of-square (+ a 1) (* a 2)))
+	(sum-of-squares (+ a 1) (* a 2)))
 
 (f 5)
