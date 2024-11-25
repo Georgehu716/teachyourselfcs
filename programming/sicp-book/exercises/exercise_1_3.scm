@@ -53,13 +53,36 @@
   (+ (square x) (square y)))
 
 (define (sum-of-squares-two-largest x y z)
-  (let* ((smallest (min x y z))
-         (two-largest (remove smallest (list x y z))))
-    (apply sum-of-squares two-largest)))
-
+  (sum-of-squares (max x y) (max (min x y) z)))
 
 (sum-of-squares-two-largest 1 2 3) 
 (sum-of-squares-two-largest 1 1 1)
 (sum-of-squares-two-largest 1 2 2)
 (sum-of-squares-two-largest 1 1 2)
 (sum-of-squares-two-largest 1 4 3)
+
+
+;; v3
+(define (sum-square-large papa mama baby)
+  (define (square x) (* x x))
+  (cond ((> mama papa) (sum-square-large mama papa baby))
+        ((> baby mama) (sum-square-large papa baby mama))
+	(else (+ (square papa) (square mama)))))
+
+(sum-square-large 1 2 3) 
+(sum-square-large 1 1 1)
+(sum-square-large 1 2 2)
+(sum-square-large 1 1 2)
+(sum-square-large 1 4 3)
+
+
+(define (sum-square-largest x y z)
+  (cond
+    ;; x is smallest
+    ((and (< x y) (< x z)) (+ (* y y) (* z z)))
+    (else (sum-square-largest y z x))))
+
+(define (sls x y z)
+  (cond ((> z x) (sls z y x))
+        ((> z y) (sls x z y))
+	(else (+ (* x x) (* y y)))))
