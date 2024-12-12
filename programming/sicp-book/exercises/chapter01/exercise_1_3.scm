@@ -79,7 +79,7 @@
 (define (sum-square-largest x y z)
   (cond
     ;; x is smallest
-    ((and (< x y) (< x z)) (+ (* y y) (* z z)))
+    ((and (<= x y) (<= x z)) (+ (* y y) (* z z)))
     (else (sum-square-largest y z x))))
 
 (define (sls x y z)
