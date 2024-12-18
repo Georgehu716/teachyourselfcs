@@ -21,3 +21,5 @@
 (sqrt (+ 100 37))
 (sqrt (+ (sqrt 2) (sqrt 3)))
 (square (sqrt 1000))
+(square (sqrt 0.000001))
+(square (sqrt 1000000000))
