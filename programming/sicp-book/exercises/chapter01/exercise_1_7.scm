@@ -6,7 +6,17 @@
 
 
 ;; why fails for small and large numbers?
-;; better good-enough? compare the diff between previous guess and current guess.
+;; 
+;; For small number:
+;; If the square root of x is less than 0.001 in good-enough?, it is always be true to compare abs of square guess and x. The algorithm doesn't work for small number.
+;;
+;; For large number:
+;; If the square root of x is a large number, due to the limited precision of arithmetic operations, the difference between and square guess and x is not effective to the 0.001 in good-enough?.
+;; 
+;; better good-enough? compare the diff between previous guess and current guess. Does this work better for small and large numbers?
+;;
+;; For small and large numbers:
+;; It will compare the changes between prev-guess and current guess, no matter how large or small of the square root.
 
 
 (define (sqrt x)
