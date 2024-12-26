@@ -1,7 +1,6 @@
 # 1 Building Abstractions with Procedures
 
 ## 1.1 The Elements of Programming
-
 ### 1.1.5 The Substitution Model for Procedure Application
 
 Applicative order versus normal order
@@ -62,3 +61,15 @@ Such nesting of definition, called block structure, is basically the right solut
 Then x gets its value form the argument with which the enclosing procedure sqrt is called. This discipline is called lexical scoping.
 
 We will use block structure extensively to help us break up large programs into tractable pieces. The idea of block structure originated with the programming language Algol 60. It appears in most advanced programming languages and is an important tool for helping to organize the construction fo large programs.
+
+
+## 1.2 Procedures and the Processes They Generate
+
+
+### 1.2.1 Linear Recursion and Iteration
+
+linear recursive process, linear iterative process
+
+a recursive process vs. a recursive procedure.
+
+tail-recursive
