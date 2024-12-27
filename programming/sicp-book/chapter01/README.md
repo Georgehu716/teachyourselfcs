@@ -65,6 +65,10 @@ We will use block structure extensively to help us break up large programs into 
 
 ## 1.2 Procedures and the Processes They Generate
 
+Our situation is analogous to that of someone who has learned the rules of how the pieces move in chess but knows nothing of typical openings, tactics, or strategy. Like the novice chess player, we don't yet know the common patterns of usage in the domain.
+
+A procedure is a pattern for the local evolution of a computational process.
+
 
 ### 1.2.1 Linear Recursion and Iteration
 
