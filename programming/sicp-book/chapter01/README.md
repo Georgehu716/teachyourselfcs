@@ -132,6 +132,8 @@ We can immediately translate this definition into a recursive procedure for comp
                  (fib (- n 2))))))
 ```
 
+One can show that the value of Fib(n) grows exponentially with n, the process uses a number of steps that grows exponentially with the input. On the other hand, the space required grows only linearly with the input, because we need keep track only of which nodes are above use in the tree at any point in the computation. In general, the number of steps required by a tree-recursive process will be proportional to the number of nodes in the tree, while the space required will be proportional to the maximum depth of the tree.
+
 Iterative process for computing the Fibonacci numbers:
 
 ```
@@ -143,3 +145,5 @@ Iterative process for computing the Fibonacci numbers:
       b
       (fib-iter (+ a b) a (- count 1))))
 ```
+
+This second method for computing Fib(n) is a linear iteration.
