@@ -147,3 +147,14 @@ Iterative process for computing the Fibonacci numbers:
 ```
 
 This second method for computing Fib(n) is a linear iteration.
+
+
+**Example: Counting change**
+
+How many different ways can we make change of $1.00, given half-dollars, quarters, dimes, nickels, and pennies? More generally, can we write a procedure to compute the number of ways to change any given amount of money?
+
+This problem has a simple solution as a recursive procedure. Suppose we think of the types of coins available as arranged in some order. Then the following relation holds:
+
+The number of ways to change amount a using n kinds of coins equal
+- the number of ways to change amount a using all but the first kind of coin, plus
+- the number of ways to change amount a - d using n kinds of coins, where d is the denomination of the first kind of coin.
