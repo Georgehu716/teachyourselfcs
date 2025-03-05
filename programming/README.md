@@ -1,5 +1,7 @@
+- https://teachyourselfcs.com/#programming
+- Brian Harvey HomePage: https://people.eecs.berkeley.edu/~bh/
 - http://community.schemewiki.org/?sicp-solutions
-- https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/week1
+- https://people.eecs.berkeley.edu/~bh/61a-pages/
 
 
 todo:
