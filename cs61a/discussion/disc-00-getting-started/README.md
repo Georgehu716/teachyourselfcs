@@ -32,4 +32,6 @@ graph TD
     H --> 5
 ```
 
+How to find the shortest small expression?
+
 h(g(5), g(g(f(f(5))))) = 2024

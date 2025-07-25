@@ -8,5 +8,5 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 ### Welcome
 
 - [x] Slides
-- [ ] Disc 00: Getting Started
-- [ ] lab 00: Getting Started
+- [x] Disc 00: Getting Started
+- [x] lab 00: Getting Started
