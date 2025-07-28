@@ -21,3 +21,10 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] HW 01: Functions, Control
 - [x] Lab 01: Functions
     - [ ] Optional Questions, back in Control (lecture 3)
+
+### Control
+
+- [ ] Videos
+- [ ] Slides
+- [ ] Textbook: Ch. 1.4, 1.5
+- [ ] Disc 01: Control, Environment Diagrams
