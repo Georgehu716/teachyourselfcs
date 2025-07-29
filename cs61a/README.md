@@ -24,7 +24,8 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 
 ### Control
 
-- [ ] Videos
-- [ ] Slides
-- [ ] Textbook: Ch. 1.4, 1.5
+- [x] Videos
+- [x] Slides
+    - [ ] Prime Factorization
+- [x] Textbook: Ch. 1.4, 1.5
 - [ ] Disc 01: Control, Environment Diagrams
