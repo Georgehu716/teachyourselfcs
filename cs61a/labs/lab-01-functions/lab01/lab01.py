@@ -42,7 +42,12 @@ def falling(n, k):
     >>> falling(4, 0)
     1
     """
-    "*** YOUR CODE HERE ***"
+    ans = 1
+    while k > 0:
+        ans = ans * n
+        n = n - 1
+        k = k - 1
+    return ans
 
 
 def divisible_by_k(n, k):
@@ -65,7 +70,14 @@ def divisible_by_k(n, k):
     >>> c
     0
     """
-    "*** YOUR CODE HERE ***"
+    ans = 0
+    i = 1
+    while i <= n:
+        if i % k == 0:
+            print(i)
+            ans += 1
+        i = i + 1
+    return ans
 
 
 def sum_digits(y):
@@ -81,7 +93,11 @@ def sum_digits(y):
     >>> a
     6
     """
-    "*** YOUR CODE HERE ***"
+    ans = 0
+    while y > 0:
+        ans += y % 10
+        y = y // 10
+    return ans
 
 
 def double_eights(n):
