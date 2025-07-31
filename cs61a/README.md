@@ -20,12 +20,20 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Textbook: Ch. 1.1, 1.2, 1.3
 - [x] HW 01: Functions, Control
 - [x] Lab 01: Functions
-    - [ ] Optional Questions, back in Control (lecture 3)
+    - [x] Optional Questions, back in Control (lecture 3)
 
 ### Control
 
 - [x] Videos
 - [x] Slides
-    - [ ] Prime Factorization
+    - [x] Prime Factorization
 - [x] Textbook: Ch. 1.4, 1.5
 - [x] Disc 01: Control, Environment Diagrams
+
+### Higher-Order Functions
+
+- [x] Videos
+- [x] Slides
+- [ ] Textbook: Ch. 1.6
+- [ ] HW 02: Higher-Order Functions
+- [ ] Hog
