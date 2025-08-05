@@ -11,7 +11,6 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Disc 00: Getting Started
     - [ ] small expression, back in week 4
 - [x] Lab 00: Getting Started
-
 ### Functions
 
 - [x] Videos
@@ -36,4 +35,4 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Slides
 - [x] Textbook: Ch. 1.6
 - [x] HW 02: Higher-Order Functions
-- [ ] Hog
+- [ ] Project: Hog
