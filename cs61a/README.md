@@ -34,6 +34,6 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 
 - [x] Videos
 - [x] Slides
-- [ ] Textbook: Ch. 1.6
-- [ ] HW 02: Higher-Order Functions
+- [x] Textbook: Ch. 1.6
+- [x] HW 02: Higher-Order Functions
 - [ ] Hog
