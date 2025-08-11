@@ -35,4 +35,4 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Slides
 - [x] Textbook: Ch. 1.6
 - [x] HW 02: Higher-Order Functions
-- [ ] Project: Hog
+- [x] Project: Hog
