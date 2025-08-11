@@ -36,3 +36,10 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Textbook: Ch. 1.6
 - [x] HW 02: Higher-Order Functions
 - [x] Project: Hog
+
+### Environments
+
+- [x] Videos
+- [ ] Slides
+- [ ] Textbook: Ch. 1.6
+- [ ] Lab 02: Higher-Order Functions, Lambda Expressions
