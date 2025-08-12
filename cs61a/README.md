@@ -40,6 +40,6 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 ### Environments
 
 - [x] Videos
-- [ ] Slides
+- [x] Slides
 - [ ] Textbook: Ch. 1.6
-- [ ] Lab 02: Higher-Order Functions, Lambda Expressions
+- [x] Lab 02: Higher-Order Functions, Lambda Expressions
