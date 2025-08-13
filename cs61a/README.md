@@ -43,3 +43,10 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Slides
 - [ ] Textbook: Ch. 1.6
 - [x] Lab 02: Higher-Order Functions, Lambda Expressions
+
+### Functional abstraction
+
+- [x] Videos
+- [x] Slides
+    - [ ] Twenty-One Rules
+- [x] Disc 02: Environment Diagrams, Higher-Order Functions
