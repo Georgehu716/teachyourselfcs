@@ -50,3 +50,8 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Slides
     - [ ] Twenty-One Rules
 - [x] Disc 02: Environment Diagrams, Higher-Order Functions
+
+### Function Examples
+
+- [x] Videos
+- [x] Slides
