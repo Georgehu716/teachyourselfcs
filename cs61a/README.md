@@ -55,3 +55,10 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 
 - [x] Videos
 - [x] Slides
+
+### Recursion
+
+- [x] Videos
+- [ ] Slides
+- [ ] Textbook: Ch. 1.7
+- [ ] Disc 03: Recursion
