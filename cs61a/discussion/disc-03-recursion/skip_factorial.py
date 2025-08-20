@@ -6,7 +6,7 @@ def skip_factorial(n):
     >>> skip_factorial(8) # 8 * 6 * 4 * 2
     384
     """
-    if n < 2:
-        return 1
+    if n <= 2:
+        return n
     else:
         return n * skip_factorial(n - 2)
