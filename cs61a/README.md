@@ -61,4 +61,11 @@ TextBook: [Composing Programs](https://www.composingprograms.com/)
 - [x] Videos
 - [x] Slides
 - [x] Textbook: Ch. 1.7
-- [ ] Disc 03: Recursion
+- [x] Disc 03: Recursion
+
+### Tree Recursion
+
+- [ ] Videos
+- [ ] Slides
+- [ ] Textbook: Ch. 1.7
+- [ ] HW 03: Recursion, Tree Recursion
